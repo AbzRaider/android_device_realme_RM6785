@@ -283,6 +283,9 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 include $(LOCAL_PATH)/configs/props/vendor_prop.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.safailnet.rc
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.5.vendor:64 \
