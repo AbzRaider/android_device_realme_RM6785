@@ -12,7 +12,7 @@
 -->
 <resources>
     <string name="device_title">Realme Lab</string>
-    <string name="device_summary">Everything you'd need, nothing you won't.</string>
+    <string name="device_summary">Everything you\'d need, nothing you won\'t.</string>
     <string name="display_title">Display</string>
     <string name="misc_title">Misc settings</string>
 
@@ -66,6 +66,9 @@
     <!-- fps info -->
     <string name="fps_info_title">FPS overlay</string>
     <string name="fps_info_summary">Show overlay with current frames per second</string>
+    <!-- other info -->
+    <string name="other_info_title">Other Information</string>
+    <string name="other_info_summary">Build by AbzRaider.\nThanks to HyperTeam for Sources.</string>
 
     <!-- Unsupported -->
     <string name="unsupported">Unsupported</string>
