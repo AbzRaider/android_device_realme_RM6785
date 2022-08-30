@@ -89,7 +89,6 @@ ro.surface_flinger.set_idle_timer_ms=250
 ro.surface_flinger.set_touch_timer_ms=300
 ro.vendor.mtk_hdr_video_support=1
 debug.composition.type=gpu
-debug.composition.type=c2d
 debug.egl.hw=1
 debug.egl.profiler=1
 debug.performance.tuning=1
