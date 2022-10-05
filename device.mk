@@ -234,6 +234,10 @@ PRODUCT_PACKAGES += \
     libmtkperf_client_vendor \
     libmtkperf_client
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
+# MTK In-Call volumes adjusting service
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkpower@1.0.vendor \
     vendor.mediatek.hardware.mtkpower@1.1.vendor \
