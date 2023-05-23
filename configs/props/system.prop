@@ -4,6 +4,11 @@ vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture,org.line
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
+# Graphics
+debug.cpurend.vsync=false
+debug.hwui.skia_atrace_enabled=false
+debug.renderengine.backend=skiaglthreaded
+
 # MediaTek Performance
 ro.mtk_perf_simple_start_win=1
 ro.mtk_perf_fast_start_win=1
