@@ -4,6 +4,11 @@ vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture,org.line
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
+# MediaTek Performance
+ro.mtk_perf_simple_start_win=1
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
+
 # RIL
 persist.sys.radio.force_lte_ca=false
 
