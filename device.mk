@@ -292,6 +292,12 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.safailnet.rc
+
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-3.9.1-vendorcompat
+
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.5.vendor:64 \
