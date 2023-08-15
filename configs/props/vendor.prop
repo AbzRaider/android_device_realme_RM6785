@@ -22,6 +22,11 @@ bluetooth.profile.pan.panu.enabled=true
 bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=true
 
+# Blurs
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
+ro.launcher.blur.appLaunch=1
+
 # Camera
 persist.vendor.camera3.pipeline.bufnum.base.imgo=4
 persist.vendor.camera3.pipeline.bufnum.base.lcso=4
