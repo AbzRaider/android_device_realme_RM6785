@@ -6,3 +6,6 @@ git -C "frameworks/base" am <<<"$(curl -sL "https://github.com/ArrowOS/android_f
 
 # Settings: Add a toggle to force LTE carrier aggregation
 git -C "packages/apps/Settings" am <<<"$(curl -sL "https://github.com/ArrowOS/android_packages_apps_Settings/commit/f2fed94da68fc5feacc74133db4dcb4026654bc6.patch")"
+
+# Import the Neutron Clang 17
+curl -sL https://gist.githubusercontent.com/prathamdubey2005/3c8a427b7c8951250a4c262367554351/raw/448da32086bc3cbec154ada54b114e70db7b7c1d/script.sh | bash
