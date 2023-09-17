@@ -277,6 +277,10 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor:64 \
     android.hardware.radio.deprecated@1.0.vendor:64
 
+
+# RealmeParts
+$(call inherit-product, $(DEVICE_PATH)/app/RealmeParts/parts.mk)
+
 # RcsService
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
