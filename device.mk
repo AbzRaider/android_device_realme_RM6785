@@ -263,7 +263,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Properties
-include $(LOCAL_PATH)/vendor_prop.mk
+include $(LOCAL_PATH)/configs/props/vendor_prop.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Radio
