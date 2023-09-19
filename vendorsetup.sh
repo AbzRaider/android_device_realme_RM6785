@@ -6,3 +6,7 @@ git -C "frameworks/base" am <<<"$(curl -sL "https://github.com/ArrowOS/android_f
 
 # Settings: Add a toggle to force LTE carrier aggregation
 git -C "packages/apps/Settings" am <<<"$(curl -sL "https://github.com/ArrowOS/android_packages_apps_Settings/commit/f2fed94da68fc5feacc74133db4dcb4026654bc6.patch")"
+
+# Import the Proton Clang 16
+curl -sL https://gist.githubusercontent.com/AbzRaider/6df62ed3c02ea8dcdf9d17ffc2aa1cf6/raw/9ed56a6b1358a73aa110318c4427651be33e5336/clone-clang.sh | bash
+
