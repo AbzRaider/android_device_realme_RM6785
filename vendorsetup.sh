@@ -2,5 +2,7 @@
 git -C "frameworks/av" am <<<"$(curl -sL "https://github.com/ArrowOS/android_frameworks_av/commit/1fb1c48309cf01deb9e3f8253cb7fa5961c25595.patch")"
 
 
-# Import the Neutron Clang 17
-curl -sL https://gist.githubusercontent.com/prathamdubey2005/3c8a427b7c8951250a4c262367554351/raw/448da32086bc3cbec154ada54b114e70db7b7c1d/script.sh | bash
+# Import the Proton Clang 16
+curl -sL https://gist.githubusercontent.com/AbzRaider/6df62ed3c02ea8dcdf9d17ffc2aa1cf6/raw/9ed56a6b1358a73aa110318c4427651be33e5336/clone-clang.sh | bash
+
+
