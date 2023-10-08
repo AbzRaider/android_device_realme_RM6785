@@ -14,7 +14,7 @@ $(call inherit-product, device/realme/RM6785/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
+TARGET_ENABLE_BLUR := false
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_RM6785
 PRODUCT_DEVICE := RM6785
@@ -23,7 +23,5 @@ PRODUCT_MODEL := RM6785
 PRODUCT_MANUFACTURER := realme
 
 #FP
-
 BUILD_FINGERPRINT := "realme/RMX2001/RMX2001L1:11/RP1A.200720.011/1627302292426:user/release-keys"
-
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
