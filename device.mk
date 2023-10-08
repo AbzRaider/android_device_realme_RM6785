@@ -263,10 +263,6 @@ PRODUCT_PACKAGES += \
 -include $(LOCAL_PATH)/properties.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
-# PowerOffAlarm
-PRODUCT_PACKAGES += \
-    PowerOffAlarm
-
 # Properties
 include $(LOCAL_PATH)/configs/props/vendor_prop.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
