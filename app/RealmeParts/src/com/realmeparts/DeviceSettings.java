@@ -138,7 +138,15 @@ public class DeviceSettings extends PreferenceFragment
         mPerfProfile.setSummary(mPerfProfile.getEntry());
         mPerfProfile.setOnPreferenceChangeListener(this);
 
-      
+
+	isCoolDownAvailable();
+      try {
+            ParseJson();
+        } catch (Exception e) {
+            Log.d("DeviceSettings", e.toString());
+        }
+    }
+  
     
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
