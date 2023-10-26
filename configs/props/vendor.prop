@@ -204,6 +204,9 @@ telephony.active_modems.max_count=2
 # SoC
 ro.soc.manufacturer=MediaTek
 ro.soc.model=MT6785
+debug.mediatek.disp_decompress=1
+ro.mtk_soter_support=1
+ro.vendor.mediatek.platform=MT6785
 
 # TEE
 ro.hardware.kmsetkey=trustonic
