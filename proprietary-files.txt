@@ -1068,16 +1068,7 @@ vendor/firmware/soc1_0_ram_wifi_2a_1_hdr.bin
 # Connectivity (Firmware) - from RMX3085_11_A.01
 vendor/firmware/soc1_0_ram_bt_2a_1_hdr.bin|996c0c2e822c766dd628b0c407d986f63176fb46
 
-# Dplanner
--vendor/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service
--vendor/bin/dconfig
--vendor/bin/dexecutor
--vendor/bin/doeapp-memtester
--vendor/bin/doeapp-sat
--vendor/bin/dtc_vendor
-vendor/etc/init/vendor.mediatek.hardware.dplanner@2.0-service.rc
-vendor/etc/vintf/manifest/vendor.mediatek.hardware.dplanner@2.0-service.xml
--vendor/lib64/vendor.mediatek.hardware.dplanner@2.0.so
+
 
 # DRM (Widevine)
 -odm/lib/liboemcrypto.so
