@@ -23,7 +23,7 @@ echo 0 >/sys/module/ged/parameters/gx_force_cpu_boost
 echo 0 > /sys/module/ged/parameters/boost_amp
 echo 0 > /sys/module/ged/parameters/boost_extra
 echo 0 > /sys/module/ged/parameters/boost_gpu_enable
-echo 0 > /sys/module/ged/parameters/enable_cpu_boost
+echo -1 > /sys/module/ged/parameters/enable_cpu_boost
 echo 0 > /sys/module/ged/parameters/enable_gpu_boost
 echo 0 > /sys/module/ged/parameters/enable_game_self_frc_detect
 echo 100 > /sys/module/ged/parameters/gpu_idle
@@ -36,6 +36,7 @@ echo 100 > /sys/module/ged/parameters/gpu_idle
 
 # PPM
 echo 1 > /proc/ppm/enabled
+echo 9 1 > /proc/ppm/policy_status
 
 # Enable Thermal Throttle
 echo 4 1 > /proc/ppm/policy_status
@@ -89,7 +90,7 @@ case $1 in
 	echo 0 > /sys/module/ged/parameters/boost_amp
 	echo 0 > /sys/module/ged/parameters/boost_extra
 	echo 0 > /sys/module/ged/parameters/boost_gpu_enable
-	echo 0 > /sys/module/ged/parameters/enable_cpu_boost
+	echo -1 > /sys/module/ged/parameters/enable_cpu_boost
 	echo 0 > /sys/module/ged/parameters/enable_gpu_boost
 	echo 0 > /sys/module/ged/parameters/enable_game_self_frc_detect
 	echo 100 > /sys/module/ged/parameters/gpu_idle
@@ -126,7 +127,7 @@ case $1 in
 	echo 6 1 > /proc/ppm/policy_status
 	echo 7 1 > /proc/ppm/policy_status
 	echo 8 1 > /proc/ppm/policy_status
-	echo 9 0 > /proc/ppm/policy_status
+	echo 9 1 > /proc/ppm/policy_status
 	#enable thermal throttle
     echo 4 1 > /proc/ppm/policy_status
 
