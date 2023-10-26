@@ -1,0 +1,13 @@
+# Audio
+system_public_prop(system_audio_tuning_prop)
+system_public_prop(system_oppo_audio_prop)
+system_public_prop(system_dirac_prop)
+
+# Parts
+system_public_prop(system_perf_prop)
+system_public_prop(system_cabc_prop)
+
+
+# Camera
+system_public_prop(system_oppo_camera_prop)
+

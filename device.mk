@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
+DEVICE_PATH = device/realme/RM6785
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -267,7 +267,7 @@ PRODUCT_PACKAGES += \
     libmtkperf_client
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+    $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # MTK In-Call volumes adjusting service
 PRODUCT_PACKAGES += \
@@ -288,7 +288,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.5.vendor:64 \
     android.hardware.radio.config@1.2.vendor:64 \
     android.hardware.radio.deprecated@1.0.vendor:64
-
 
 # RealmeParts
 $(call inherit-product, $(DEVICE_PATH)/app/RealmeParts/parts.mk)

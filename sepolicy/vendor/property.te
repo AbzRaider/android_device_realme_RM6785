@@ -1,3 +1,5 @@
 vendor_internal_prop(vendor_audio_tunning_prop)
+# Camera
+vendor_public_prop(vendor_oppo_camera_prop)
 vendor_internal_prop(vendor_fingerprint_prop)
 vendor_public_prop(vendor_device_prop)
