@@ -39,6 +39,9 @@ on init
     write /dev/cpuset/system-background/cpus 0-5
     write /dev/cpuset/top-app/cpus 0-7
 
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
+
 on late-init
     write /proc/bootprof "INIT:late-init"
 # enable rcu_expedited
