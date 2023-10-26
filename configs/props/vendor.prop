@@ -114,7 +114,7 @@ ro.vendor.mtk_hdr_video_support=1
 ro.surface_flinger.wcg_composition_dataspace=143261696
 ro.surface_flinger.primary_display_orientation=ORIENTATION_0
 ro.surface_flinger.running_without_sync_framework=true
-ro.surface_flinger.uclamp.min=130
+ro.surface_flinger.uclamp.min=160
 vendor.display.enable_optimize_refresh=1
 
 # Incremental
