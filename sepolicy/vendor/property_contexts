@@ -15,3 +15,10 @@ ro.vendor.mtk_deinterlace                   u:object_r:vendor_mtk_deinterlace_pr
 ro.vendor.device                            u:object_r:vendor_device_prop:s0
 ro.vendor.nfc_device                        u:object_r:vendor_device_prop:s0
 ro.vendor.power_profile.device              u:object_r:vendor_device_prop:s0
+
+
+# Camera
+vendor.oppo.camera.                           u:object_r:vendor_oppo_camera_prop:s0
+persist.vendor.camera.                        u:object_r:vendor_oppo_camera_prop:s0
+persist.vendor.camera.privapp.list            u:object_r:vendor_oppo_camera_prop:s0
+

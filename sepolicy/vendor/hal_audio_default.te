@@ -19,3 +19,16 @@ allow hal_audio_default sysfs_sia81xx:file r_file_perms;
 allow hal_audio_default self:netlink_kobject_uevent_socket create_socket_perms_no_ioctl;
 
 dontaudit hal_audio_default system_prop:file r_file_perms;
+
+get_prop(hal_audio_default, system_oppo_audio_prop)
+get_prop(hal_audio_default, system_audio_tuning_prop)
+get_prop(hal_audio_default, system_dirac_prop)
+get_prop(hal_audio_default, vendor_mtk_service_nvram_init_prop)
+get_prop(hal_audio_default, vendor_mtk_default_prop)
+get_prop(hal_audio_default, vendor_mtk_tel_switch_prop)
+get_prop(hal_audio_default, vendor_mtk_wmt_prop)
+set_prop(hal_audio_default, system_oppo_audio_prop)
+set_prop(hal_audio_default, system_audio_tuning_prop)
+set_prop(hal_audio_default, system_dirac_prop)
+
+
