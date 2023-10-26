@@ -1,4 +1,4 @@
-# All unpinned blobs are from RMX2002GDPR_11_C.19
+# All unpinned blobs are from RMX2001_11_C.16
 
 # AEE (Android Exception Enhancement)
 -vendor/lib/libaedv.so
@@ -312,6 +312,12 @@ vendor/etc/init/init.bt_drv.rc
 
 # Bluetooth (Firmware)
 vendor/firmware/BT_FW.cfg
+
+# Kernel Modules
+vendor/lib/modules/fpsgo.ko
+vendor/lib/modules/kheaders.ko
+vendor/modules/modules.load
+vendor/modules/modules.dep
 
 # Camera
 -vendor/bin/hw/camerahalserver
