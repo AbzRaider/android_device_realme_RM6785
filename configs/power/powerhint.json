@@ -245,6 +245,17 @@
       "ResetOnInit": true,
       "DefaultIndex": 0
     },
+    	    {
+      "Name": "FBTFPSLevelRange",
+      "Path": "/sys/module/fbt_cpu/parameters/fps_level_range",
+      "Values": [
+        "45",
+        "60",
+	"90"
+      ],
+      "ResetOnInit": true,
+      "DefaultIndex": 1
+    },
     {
       "Name": "CPUSchedBoost",
       "Path": "/sys/devices/system/cpu/sched/sched_boost",
@@ -430,6 +441,12 @@
       "Duration": 0,
       "Value": "2050000"
     },
+    	{
+      "PowerHint": "INTERACTION",
+      "Node": "FBTFPSLevelRange",
+      "Duration": 0,
+      "Value": "90"
+    },
     {
       "PowerHint": "INTERACTION",
       "Node": "TASchedtuneBoost",
@@ -567,6 +584,12 @@
       "Node": "CPUBigClusterMinFreq",
       "Duration": 0,
       "Value": "1085000"
+    },
+    	{
+      "PowerHint": "Flipendo",
+      "Node": "FBTFPSLevelRange",
+      "Duration": 0,
+      "Value": "60"
     },
     {
       "PowerHint": "Flipendo",
