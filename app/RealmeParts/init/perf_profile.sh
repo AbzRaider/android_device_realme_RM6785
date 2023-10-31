@@ -193,8 +193,8 @@ case $1 in
 	echo 0 > /sys/devices/system/cpu/eas/enable
 
     # sched rate
-	echo 21000 > /sys/devices/system/cpu/cpufreq/schedutil/down_rate_limit_us
-	echo 0 > /sys/devices/system/cpu/cpufreq/schedutil/up_rate_limit_us
+	echo 63000 > /sys/devices/system/cpu/cpufreq/schedutil/down_rate_limit_us
+	echo 20 > /sys/devices/system/cpu/cpufreq/schedutil/up_rate_limit_us
 
     # CPU SchedTune
 	echo 0-7 > /dev/cpuset/foreground/cpus
