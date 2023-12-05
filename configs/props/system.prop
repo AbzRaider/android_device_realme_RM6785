@@ -11,6 +11,7 @@ persist.sys.brightness.low.gamma=true
 # Graphics
 debug.cpurend.vsync=false
 debug.hwui.skia_atrace_enabled=false
+ro.hwui.use_vulkan=true
 debug.renderengine.backend=skiaglthreaded
 
 # MediaTek Performance
