@@ -1548,6 +1548,7 @@ vendor/etc/init/bootperf.rc|060707733e600e7002878408d907ed9e7dd7d6f2
 vendor/etc/init/init.fpsgo.rc|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc|ecd34e794f2be43025043176889506a3ed2cec2e
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc|1a7c82fde63ddf0815938f554550a05edb473f39
+vendor/lib64/android.hardware.power-service-mediatek.so
 -vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so|8104beffd1d642f201e980753b5d00e088b9c8c6
 -vendor/lib/libmtkperf_client_vendor.so|a9ed1c2fc43418acff7649e0c473cc7e6181d794
 -vendor/lib/libperfctl_vendor.so|2e82e0b8a00071d694f4f7d8ba366ccf24c9a89c
