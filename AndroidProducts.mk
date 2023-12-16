@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RM6785.mk
+    $(LOCAL_DIR)/arrow_RM6785.mk
+
+COMMON_LUNCH_CHOICES := \
+    arrow_RM6785-user \
+    arrow_RM6785-userdebug \
+    arrow_RM6785-eng
