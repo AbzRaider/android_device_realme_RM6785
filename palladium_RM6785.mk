@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2022 The LineageOS Project
+# Copyright (C) 2021-2023 The PalladiumOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,11 +12,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/RM6785/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-TARGET_ENABLE_BLUR := false
+# Inherit some common PalladiumOS stuff.
+$(call inherit-product, vendor/palladium/config/common_full_phone.mk)
+TARGET_ENABLE_BLUR := true
+
+PALLADIUM_BUILD_TYPE := UNOFFICIAL
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.palladium.maintainer=AbzRaider
+
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_RM6785
+PRODUCT_NAME := palladium_RM6785
 PRODUCT_DEVICE := RM6785
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RM6785
