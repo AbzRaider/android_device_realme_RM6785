@@ -79,10 +79,7 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_PACKAGES += \
-    libshim_audio \
-    libshim_camera_metadata \
-    libshim_mtkcam \
-    libshim_utils
+    libshim_camera_metadata
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -369,7 +366,9 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
+    libmedia_helper-v30 \
     libutils-v32 \
+    libutils-v30 \
     libui-v32
 
 # Wi-Fi
