@@ -17,6 +17,9 @@
       #MTK_Thermal
         echo chmod 0 > /proc/driver/thermal/clatm_cpu_min_opp
 
+
+      # RAM Frequency
+	echo 1 > /sys/devices/platform/10012000.dvfsrc/helio-dvfsrc/dvfsrc_req_ddr_opp
 # GED modules
 echo 0 >/sys/module/ged/parameters/gx_game_mode
 echo 0 >/sys/module/ged/parameters/gx_force_cpu_boost
@@ -158,6 +161,11 @@ case $1 in
 
      #Sched
 	echo '0' > /sys/devices/system/cpu/eas/enable
+
+      # RAM Frequency
+	#Force to Max DDR Freq 
+          echo 0 > /sys/devices/platform/10012000.dvfsrc/helio-dvfsrc/dvfsrc_req_ddr_opp
+
 
 	#EaraThermal
 	   echo 0 > /sys/kernel/eara_thermal/fake_throttle
